@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="54276" started-at="2020-11-04T21:18:51 CST" finished-at="2020-11-04T21:19:46 CST">
+    <groups>
+      <group name="sanity">
+        <method signature="CartTest.doPriceVerification(pojo.productData)[pri:0, instance:Tests.CartTest@7085bdee]" name="doPriceVerification" class="Tests.CartTest"/>
+        <method signature="PriceVerificationTest.doPriceVerification(pojo.productPriceData)[pri:0, instance:Tests.PriceVerificationTest@73ad2d6]" name="doPriceVerification" class="Tests.PriceVerificationTest"/>
+        <method signature="RegisterTest.doRegister(pojo.registrationUserData)[pri:0, instance:Tests.RegisterTest@1ce92674]" name="doRegister" class="Tests.RegisterTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Command line test" duration-ms="54276" started-at="2020-11-04T21:18:51 CST" finished-at="2020-11-04T21:19:46 CST">
+      <class name="Tests.RegisterTest">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:Tests.RegisterTest@1ce92674]" name="setUpTest" is-config="true" duration-ms="1868" started-at="2020-11-04T21:19:34 CST" finished-at="2020-11-04T21:19:35 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="doRegister(pojo.registrationUserData)[pri:0, instance:Tests.RegisterTest@1ce92674]" name="doRegister" duration-ms="4036" started-at="2020-11-04T21:19:35 CST" description="Test Case #1 - Web site allows new user registration." data-provider="getRegistrationUsersDataFromJson" finished-at="2020-11-04T21:19:39 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pojo.registrationUserData@f339eae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.RegisterTest@1ce92674]" name="tearDown" is-config="true" duration-ms="168" started-at="2020-11-04T21:19:39 CST" finished-at="2020-11-04T21:19:40 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:Tests.RegisterTest@1ce92674]" name="setUpTest" is-config="true" duration-ms="1899" started-at="2020-11-04T21:19:40 CST" finished-at="2020-11-04T21:19:42 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="doRegister(pojo.registrationUserData)[pri:0, instance:Tests.RegisterTest@1ce92674]" name="doRegister" duration-ms="4047" started-at="2020-11-04T21:19:42 CST" description="Test Case #1 - Web site allows new user registration." data-provider="getRegistrationUsersDataFromJson" finished-at="2020-11-04T21:19:46 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pojo.registrationUserData@2822c6ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.RegisterTest@1ce92674]" name="tearDown" is-config="true" duration-ms="157" started-at="2020-11-04T21:19:46 CST" finished-at="2020-11-04T21:19:46 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.RegisterTest -->
+      <class name="Tests.CartTest">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:Tests.CartTest@7085bdee]" name="setUpTest" is-config="true" duration-ms="1767" started-at="2020-11-04T21:19:23 CST" finished-at="2020-11-04T21:19:24 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="doPriceVerification(pojo.productData)[pri:0, instance:Tests.CartTest@7085bdee]" name="doPriceVerification" duration-ms="8888" started-at="2020-11-04T21:19:24 CST" description="Test Case #2 - Add product to cart using search. Assert product can not be purchased." data-provider="getProductsFromJson" finished-at="2020-11-04T21:19:33 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pojo.productData@621f89b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPriceVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.CartTest@7085bdee]" name="tearDown" is-config="true" duration-ms="223" started-at="2020-11-04T21:19:33 CST" finished-at="2020-11-04T21:19:34 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.CartTest -->
+      <class name="Tests.PriceVerificationTest">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:Tests.PriceVerificationTest@73ad2d6]" name="setUpTest" is-config="true" duration-ms="3559" started-at="2020-11-04T21:18:52 CST" finished-at="2020-11-04T21:18:55 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="doPriceVerification(pojo.productPriceData)[pri:0, instance:Tests.PriceVerificationTest@73ad2d6]" name="doPriceVerification" duration-ms="11929" started-at="2020-11-04T21:18:55 CST" description="Test Case #3 - Verify the price of a product in all 3 currencies." data-provider="getProductsPriceFromJson" finished-at="2020-11-04T21:19:07 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pojo.productPriceData@66c83fc8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPriceVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.PriceVerificationTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="240" started-at="2020-11-04T21:19:07 CST" finished-at="2020-11-04T21:19:07 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:Tests.PriceVerificationTest@73ad2d6]" name="setUpTest" is-config="true" duration-ms="1857" started-at="2020-11-04T21:19:07 CST" finished-at="2020-11-04T21:19:09 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="doPriceVerification(pojo.productPriceData)[pri:0, instance:Tests.PriceVerificationTest@73ad2d6]" name="doPriceVerification" duration-ms="13237" started-at="2020-11-04T21:19:09 CST" description="Test Case #3 - Verify the price of a product in all 3 currencies." data-provider="getProductsPriceFromJson" finished-at="2020-11-04T21:19:22 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pojo.productPriceData@546621c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPriceVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.PriceVerificationTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="239" started-at="2020-11-04T21:19:22 CST" finished-at="2020-11-04T21:19:23 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.PriceVerificationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

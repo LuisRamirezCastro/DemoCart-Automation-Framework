@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite  name="Proyecto Final Suite">
+    <test name="3 Tests">
+        <groups>
+            <run>
+                <include name="sanity" />
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.RegisterTest"></class>
+            <class name="Tests.CartTest"></class>
+            <class name="Tests.PriceVerificationTest"></class>
+        </classes>
+    </test>
+</suite>

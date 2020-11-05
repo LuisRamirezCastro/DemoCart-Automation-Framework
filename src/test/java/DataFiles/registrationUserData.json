@@ -1,0 +1,16 @@
+{
+  "dataset": [
+    {
+      "firstName" : "Luis",
+      "lastName" : "Ramirez",
+      "telephone" : "+50611223344",
+      "password" : "123password"
+    },
+    {
+      "firstName" : "Natalia",
+      "lastName" : "Castro",
+      "telephone" : "+50699887766",
+      "password" : "123password.1"
+    }
+  ]
+}
